@@ -39,7 +39,7 @@ const RightAside = () => {
             </div>
 
             <div className='mt-5 bg-[#450693] rounded-[5px] text-white flex flex-col justify-center items-center space-y-5 px-2 py-4'>
-                <h2 className='font-bold text-[30px] '>Trusted by Millions</h2>
+                <h2 className='font-bold text-[30px] '>Trusted By</h2>
                 <div className=''>
                     <p>Total Students</p>
                     <h2 className='font-bold text-[25px]'>12.5K</h2>
