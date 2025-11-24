@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import HomeLayout from "../layout/HomeLayout";
 import Home from "../Pages/Home";
+import AllSkill from "../Pages/AllSkill";
 
 
 const router = createBrowserRouter([
@@ -10,7 +11,13 @@ const router = createBrowserRouter([
         children:[
             {
                 path:"/",
-                element:<Home></Home>
+                element:<Home></Home>,
+                loader: () => fetch('/Popular.json')
+            },
+            {
+                path:"/allSkill",
+                element: <AllSkill></AllSkill>,
+                loader: () => fetch('/Skills.json')
             }
         ]
     },

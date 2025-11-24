@@ -10,17 +10,10 @@ const HomeLayout = () => {
         <div>
             <header>
                 <Header></Header>
-                <HeroSlider></HeroSlider>
             </header>
 
-            <main>
-                <section className='left'>
-                    <Outlet></Outlet>
-                </section>
-
-                <aside>
-                    <RightAside></RightAside>
-                </aside>
+            <main className=''>
+                <Outlet></Outlet>
             </main>
 
             <footer>
