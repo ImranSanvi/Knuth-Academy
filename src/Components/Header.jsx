@@ -10,8 +10,8 @@ const Header = () => {
             
             <div className='flex gap-5'>
                 <NavLink to={'/'} className='font-bold'>Home</NavLink>
-                <NavLink className='font-bold'>About</NavLink>
-                <NavLink className='font-bold'>My Profile</NavLink>
+                <NavLink to={'/about'} className='font-bold'>About</NavLink>
+                <NavLink to={'/myProfile'} className='font-bold'>My Profile</NavLink>
             </div>
 
             <div className='flex gap-3 items-center'>

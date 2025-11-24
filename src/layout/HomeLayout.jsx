@@ -1,6 +1,8 @@
 import React from 'react';
 import { Outlet } from 'react-router';
 import Header from '../Components/Header';
+import RightAside from '../Components/homeLayout/RightAside';
+import Footer from '../Components/Footer';
 
 const HomeLayout = () => {
     return (
@@ -14,13 +16,13 @@ const HomeLayout = () => {
                     <Outlet></Outlet>
                 </section>
 
-                <section className='right'>
-
-                </section>
+                <aside>
+                    <RightAside></RightAside>
+                </aside>
             </main>
 
             <footer>
-
+                <Footer></Footer>
             </footer>
         </div>
     );
