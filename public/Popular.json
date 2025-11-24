@@ -1,0 +1,74 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Beginner Guitar Lessons",
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "price": 20,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Acoustic guitar classes for complete beginners.",
+    "image": "https://media.istockphoto.com/id/1039281614/photo/young-boy-teaching-to-play-guitar.jpg?s=612x612&w=0&k=20&c=gs8DQqbbqcyO8Nxcwtkg1-3ZLwFitkH7pjsc9YapxmI=",
+    "category": "Music"
+  },
+  {
+    "skillId": 2,
+    "skillName": "Spoken English Practice",
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "price": 10,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Conversational English sessions for non-native speakers.",
+    "image": "https://sb-cafetalk.s3.amazonaws.com/user-uploaded-files/cafetalk-optimized-624873eb28d98-916732000-1648915435.jpg",
+    "category": "Language"
+  },
+  {
+    "skillId": 3,
+    "skillName": "Introduction to Python Programming",
+    "providerName": "Ben Carter",
+    "providerEmail": "ben@skillswap.com",
+    "price": 35,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Fundamental concepts of Python for aspiring developers.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDUBBvBAvUY1kJ8LqXzXRZzs59chVPqYshMntMpl5G174Y5JpfiI0XK4o&s",
+    "category": "Technology"
+  },
+  {
+    "skillId": 10,
+    "skillName": "Acoustic Drumming Fundamentals",
+    "providerName": "Ivy Wilson",
+    "providerEmail": "ivy@skillswap.com",
+    "price": 28,
+    "rating": 4.5,
+    "slotsAvailable": 4,
+    "description": "Rhythm and basic beats for beginner drummers.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtd4pHd1F02DJd22MKqsH87kmyfdX1QpzwTQ&s",
+    "category": "Music"
+  },
+  {
+    "skillId": 11,
+    "skillName": "Home Cooking - Italian Pasta",
+    "providerName": "Jake Rodriguez",
+    "providerEmail": "jake@skillswap.com",
+    "price": 40,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Learn to make three authentic Italian pasta dishes from scratch.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcrcCPBf6iVIKmeGIQveuiMJ0j1M5fdj-aA&s",
+    "category": "Culinary"
+  },
+  {
+    "skillId": 12,
+    "skillName": "Advanced Excel Data Analysis",
+    "providerName": "Kelly Smith",
+    "providerEmail": "kelly@skillswap.com",
+    "price": 38,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Deep dive into pivot tables, VLOOKUP, and complex formulas.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx1NyNmaArl4SKPwISP5um-dTwcvSP-aDUQQ&s",
+    "category": "Technology"
+  }
+]

@@ -30,8 +30,7 @@ const Footer = () => {
             </div>
 
             <p className="text-center mt-8">
-                Knuth Academy.<br />
-                Skills for life</p>
+                Knuth Academy</p>
             <p className="font-bold text-center">Copyright ©2025 - All right reserved</p>
         </div>
     );

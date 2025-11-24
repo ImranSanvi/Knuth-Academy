@@ -18,3 +18,14 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.hero-slider .swiper-pagination-bullet {
+  background-color: #ffffff !important;
+  opacity: 0.5 !important;
+}
+
+.hero-slider .swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
