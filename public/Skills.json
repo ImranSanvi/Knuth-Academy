@@ -7,7 +7,7 @@
     "price": 20,
     "rating": 4.8,
     "slotsAvailable": 3,
-    "description": "Acoustic guitar classes for complete beginners.",
+    "description": "This introductory course covers the fundamental techniques for playing the acoustic guitar. Students will learn basic chords, simple strumming patterns, and how to read tablature. Perfect for complete beginners with no prior musical experience, aiming to play their first songs by the end of the lessons.",
     "image": "https://media.istockphoto.com/id/1039281614/photo/young-boy-teaching-to-play-guitar.jpg?s=612x612&w=0&k=20&c=gs8DQqbbqcyO8Nxcwtkg1-3ZLwFitkH7pjsc9YapxmI=",
     "category": "Music"
   },
@@ -19,7 +19,7 @@
     "price": 10,
     "rating": 4.6,
     "slotsAvailable": 5,
-    "description": "Conversational English sessions for non-native speakers.",
+    "description": "Engaging conversational English sessions designed to boost fluency and confidence for non-native speakers. Focus will be on practical, everyday communication, pronunciation improvement, and expanding vocabulary through discussions on current events, culture, and personal experiences. This is an ideal class for intermediate speakers looking to sound more natural.",
     "image": "https://sb-cafetalk.s3.amazonaws.com/user-uploaded-files/cafetalk-optimized-624873eb28d98-916732000-1648915435.jpg",
     "category": "Language"
   },
@@ -31,7 +31,7 @@
     "price": 35,
     "rating": 4.9,
     "slotsAvailable": 2,
-    "description": "Fundamental concepts of Python for aspiring developers.",
+    "description": "A comprehensive introductory course on Python, one of the world's most popular programming languages. Students will master fundamental concepts like data types, control flow, functions, and basic object-oriented programming. This class is essential for aspiring developers and anyone interested in data science or automation.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDUBBvBAvUY1kJ8LqXzXRZzs59chVPqYshMntMpl5G174Y5JpfiI0XK4o&s",
     "category": "Technology"
   },
@@ -43,7 +43,7 @@
     "price": 25,
     "rating": 4.7,
     "slotsAvailable": 4,
-    "description": "Learn camera settings and composition basics.",
+    "description": "Dive into the world of digital photography with this hands-on workshop. You will learn how to move beyond automatic mode by understanding essential camera settings like aperture, shutter speed, and ISO. The class also covers fundamental composition techniques to help you take visually compelling and professional-looking photographs.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSp19lOTNkuyAobK-o25R5wf-YVjoiAzhAMN_FVv0YO4q-iL4YiBvqPWg&s",
     "category": "Arts"
   },
@@ -55,7 +55,7 @@
     "price": 15,
     "rating": 4.5,
     "slotsAvailable": 8,
-    "description": "Gentle yoga flow focused on relaxation and breathing.",
+    "description": "A gentle and restorative yoga class specifically designed to calm the nervous system and alleviate stress. The sessions focus on slow, mindful movements, deep relaxation poses, and effective breathing techniques (pranayama). Suitable for all fitness levels, this class is a perfect way to bring balance and tranquility into your week.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEEL0wDA4CzQEaUmM2qMpaE8b6H6gA0aKnm2B4UnpPDPy8ZzacPMts4TI&s",
     "category": "Fitness"
   },
@@ -67,7 +67,7 @@
     "price": 22,
     "rating": 4.8,
     "slotsAvailable": 3,
-    "description": "Foundational French grammar and vocabulary.",
+    "description": "This is a foundational course for absolute beginners in French, covering the A1 level according to the Common European Framework of Reference for Languages (CEFR). You will learn basic greetings, essential vocabulary for everyday situations, foundational grammar, and simple conversation skills to introduce yourself and discuss basic topics.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDxSU3Bu_rTWlLFyxvGzaedbysYuXlEWGjRnZPdf0SXldQutGxiiHHzXo&s",
     "category": "Language"
   },
@@ -79,7 +79,7 @@
     "price": 45,
     "rating": 4.9,
     "slotsAvailable": 1,
-    "description": "Building modern single-page applications using React.",
+    "description": "A specialized class focused on building modern, high-performance single-page applications using the popular JavaScript library, React. Topics include component-based architecture, state management, routing, and interacting with APIs. This class is intended for students who already have a strong understanding of HTML, CSS, and vanilla JavaScript.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ52v3vK5ap7anvJY32fXs6LbFZIdC1660D_w&s",
     "category": "Technology"
   },
@@ -91,7 +91,7 @@
     "price": 30,
     "rating": 4.7,
     "slotsAvailable": 5,
-    "description": "Hands-on class covering color mixing and brushwork.",
+    "description": "An engaging, hands-on workshop where you will explore the rich history and practical application of oil painting. The curriculum covers essential techniques such as color theory, effective color mixing, different brushwork styles, and layering methods to achieve depth and texture in your artwork. All skill levels are welcome to join.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKxxCbFxWMLFhgcB1yExwO1Exo1hm1lJ9Lig&s",
     "category": "Arts"
   },
@@ -103,7 +103,7 @@
     "price": 18,
     "rating": 4.6,
     "slotsAvailable": 6,
-    "description": "Mastering personal finance and creating a sustainable budget.",
+    "description": "This course is your first step toward financial freedom. Learn how to master personal finance by tracking expenses, setting achievable financial goals, and creating a sustainable monthly budget that works for your income. The focus is on practical strategies for saving, reducing debt, and making informed financial decisions.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58uZmbeEEYJNJLCLpMlNJQWiHAPyaz3hilg&s",
     "category": "Life Skills"
   },
@@ -115,7 +115,7 @@
     "price": 28,
     "rating": 4.5,
     "slotsAvailable": 4,
-    "description": "Rhythm and basic beats for beginner drummers.",
+    "description": "Get started on the drums with this comprehensive course covering essential drumming fundamentals. Students will learn proper grip and posture, develop foundational rhythm, and practice basic beats and fills for various musical genres. It’s the perfect class for aspiring drummers ready to establish a strong rhythmic foundation.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtd4pHd1F02DJd22MKqsH87kmyfdX1QpzwTQ&s",
     "category": "Music"
   },
@@ -127,7 +127,7 @@
     "price": 40,
     "rating": 4.9,
     "slotsAvailable": 2,
-    "description": "Learn to make three authentic Italian pasta dishes from scratch.",
+    "description": "A delicious, hands-on culinary class where you will be guided through the process of making three authentic, classic Italian pasta dishes from scratch. You'll learn techniques for making fresh pasta dough, preparing traditional sauces, and achieving the perfect 'al dente' texture, bringing a taste of Italy to your home kitchen.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcrcCPBf6iVIKmeGIQveuiMJ0j1M5fdj-aA&s",
     "category": "Culinary"
   },
@@ -139,7 +139,7 @@
     "price": 38,
     "rating": 4.8,
     "slotsAvailable": 3,
-    "description": "Deep dive into pivot tables, VLOOKUP, and complex formulas.",
+    "description": "Take your spreadsheet skills to the next level with this advanced Microsoft Excel course. We will dive deep into powerful data analysis tools, including mastering pivot tables, implementing complex lookup functions like VLOOKUP and INDEX/MATCH, and creating sophisticated conditional formulas to transform raw data into actionable business intelligence.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx1NyNmaArl4SKPwISP5um-dTwcvSP-aDUQQ&s",
     "category": "Technology"
   }

@@ -1,13 +1,39 @@
-import React from 'react';
-import { useLoaderData } from 'react-router';
+import React, { useEffect, useState } from 'react';
+import { useLoaderData, useParams } from 'react-router';
+import RightAside from '../Components/homeLayout/RightAside';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
+import LeftAside from '../Components/homeLayout/LeftAside';
 
 const SkillDetails = () => {
     const data = useLoaderData();
-    console.log(data);
-    
+    const {id} = useParams();
+    const [skill, setSkill] = useState({})
+
+    useEffect( ()=>{
+        const newSkill = data.find(singleSkill => singleSkill.skillId == id);
+        setSkill(newSkill);
+    }, [data, id])
+
+    // console.log(skill);
     return (
-        <div>
-            Skill Detail Card
+        <div className=''>
+            <header>
+                <Header></Header>
+            </header>
+
+            <main className='w-10/12 mx-auto grid md:grid-cols-12 mt-5 md:mt-15 mb-5'>
+                <aside className='md:col-span-9'>
+                    <LeftAside skill={skill}></LeftAside>
+                </aside>
+
+                <aside className='md:col-span-3'>
+                    <RightAside></RightAside>
+                </aside>
+            </main>
+            <footer>
+                <Footer></Footer>
+            </footer>
         </div>
     );
 };
