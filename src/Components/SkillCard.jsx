@@ -1,10 +1,12 @@
 import React from 'react';
 import ratingIcon from './../assets/icon-ratings.png'
 import { AiFillDollarCircle } from 'react-icons/ai';
+import { Link } from 'react-router';
 
 const SkillCard = ({skill}) => {
+    const {skillId} = skill
     return (
-        <div className='p-3 rounded-[5px] space-y-5 bg-[#F3E8DF] h-full'>
+        <div className='p-3 pb-5 rounded-[5px] space-y-5 bg-[#F3E8DF] h-full '>
             <img className='rounded-[5px] w-full h-[315px] ' src={skill.image} alt="" />
             <p className='font-bold'>{skill.skillName}</p>
             <p className='text-accent'>Provided By : <span>{skill.providerName}</span></p>
@@ -20,7 +22,7 @@ const SkillCard = ({skill}) => {
                 </div>
             </div>
 
-            <button className='bg-primary text-white rounded-2xl py-2 px-3 font-bold'>View Details</button>
+            <Link to={`/skillDetails/${skillId}`} className='bg-primary text-white rounded-2xl py-2 px-3 font-bold'>View Details</Link>
         </div>
     );
 };
