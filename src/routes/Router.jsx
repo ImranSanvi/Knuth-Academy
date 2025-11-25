@@ -6,6 +6,7 @@ import Error from "../Pages/Error";
 import HeroSlider from "../Components/HeroSlider";
 import SkillDetails from "../Pages/SkillDetails";
 import About from "../Pages/About";
+import CategorySkill from "../Components/CategorySkill";
 
 
 const router = createBrowserRouter([
@@ -16,11 +17,11 @@ const router = createBrowserRouter([
             {
                 path:"/",
                 element:<Home></Home>,
-                loader: () => fetch('/Popular.json')
+                loader: () => fetch('/Skills.json')
             },
             {
-                path:"/allSkill",
-                element: <AllSkill></AllSkill>,
+                path:"/category/:id",
+                element: <CategorySkill></CategorySkill>,
                 loader: () => fetch('/Skills.json')
             },
 

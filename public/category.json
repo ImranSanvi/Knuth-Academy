@@ -1,0 +1,42 @@
+[
+  {
+    "categoryId": 1000,
+    "category": "Popular"
+  },
+  {
+    "categoryId": 10001,
+    "category": "Music"
+  },
+  {
+    "categoryId": 10002,
+    "category": "Language"
+  },
+  {
+    "categoryId": 10003,
+    "category": "Technology"
+  },
+  {
+    "categoryId": 10004,
+    "category": "Arts"
+  },
+  {
+    "categoryId": 10005,
+    "category": "Fitness"
+  },
+  {
+    "categoryId": 10006,
+    "category": "Life Skills"
+  },
+  {
+    "categoryId": 10007,
+    "category": "Culinary"
+  },
+  {
+    "categoryId": 10008,
+    "category": "Business"
+  },
+  {
+    "categoryId": 10009,
+    "category": "Games"
+  }
+]

@@ -10,7 +10,8 @@
     "description": "This introductory course covers the fundamental techniques for playing the acoustic guitar. Students will learn basic chords, simple strumming patterns, and how to read tablature. Perfect for complete beginners with no prior musical experience, aiming to play their first songs by the end of the lessons.",
     "image": "https://media.istockphoto.com/id/1039281614/photo/young-boy-teaching-to-play-guitar.jpg?s=612x612&w=0&k=20&c=gs8DQqbbqcyO8Nxcwtkg1-3ZLwFitkH7pjsc9YapxmI=",
     "category": "Music",
-    "tag": "Popular"
+    "tag": "Popular",
+    "categoryId": "10001"
   },
   {
     "skillId": 2,
@@ -22,7 +23,8 @@
     "slotsAvailable": 5,
     "description": "Engaging conversational English sessions designed to boost fluency and confidence for non-native speakers. Focus will be on practical, everyday communication, pronunciation improvement, and expanding vocabulary through discussions on current events, culture, and personal experiences. This is an ideal class for intermediate speakers looking to sound more natural.",
     "image": "https://sb-cafetalk.s3.amazonaws.com/user-uploaded-files/cafetalk-optimized-624873eb28d98-916732000-1648915435.jpg",
-    "category": "Language"
+    "category": "Language",
+    "categoryId": "10002"
   },
   {
     "skillId": 3,
@@ -35,7 +37,8 @@
     "description": "A comprehensive introductory course on Python, one of the world's most popular programming languages. Students will master fundamental concepts like data types, control flow, functions, and basic object-oriented programming. This class is essential for aspiring developers and anyone interested in data science or automation.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDUBBvBAvUY1kJ8LqXzXRZzs59chVPqYshMntMpl5G174Y5JpfiI0XK4o&s",
     "category": "Technology",
-    "tag": "Popular"
+    "tag": "Popular",
+    "categoryId": "10003"
   },
   {
     "skillId": 4,
@@ -47,7 +50,8 @@
     "slotsAvailable": 4,
     "description": "Dive into the world of digital photography with this hands-on workshop. You will learn how to move beyond automatic mode by understanding essential camera settings like aperture, shutter speed, and ISO. The class also covers fundamental composition techniques to help you take visually compelling and professional-looking photographs.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSp19lOTNkuyAobK-o25R5wf-YVjoiAzhAMN_FVv0YO4q-iL4YiBvqPWg&s",
-    "category": "Arts"
+    "category": "Arts",
+    "categoryId": "10004"
   },
   {
     "skillId": 5,
@@ -59,7 +63,8 @@
     "slotsAvailable": 8,
     "description": "A gentle and restorative yoga class specifically designed to calm the nervous system and alleviate stress. The sessions focus on slow, mindful movements, deep relaxation poses, and effective breathing techniques (pranayama). Suitable for all fitness levels, this class is a perfect way to bring balance and tranquility into your week.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEEL0wDA4CzQEaUmM2qMpaE8b6H6gA0aKnm2B4UnpPDPy8ZzacPMts4TI&s",
-    "category": "Fitness"
+    "category": "Fitness",
+    "categoryId": "10005"
   },
   {
     "skillId": 6,
@@ -71,7 +76,8 @@
     "slotsAvailable": 3,
     "description": "This is a foundational course for absolute beginners in French, covering the A1 level according to the Common European Framework of Reference for Languages (CEFR). You will learn basic greetings, essential vocabulary for everyday situations, foundational grammar, and simple conversation skills to introduce yourself and discuss basic topics.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDxSU3Bu_rTWlLFyxvGzaedbysYuXlEWGjRnZPdf0SXldQutGxiiHHzXo&s",
-    "category": "Language"
+    "category": "Language",
+    "categoryId": "10002"
   },
   {
     "skillId": 7,
@@ -84,7 +90,8 @@
     "description": "A specialized class focused on building modern, high-performance single-page applications using the popular JavaScript library, React. Topics include component-based architecture, state management, routing, and interacting with APIs. This class is intended for students who already have a strong understanding of HTML, CSS, and vanilla JavaScript.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ52v3vK5ap7anvJY32fXs6LbFZIdC1660D_w&s",
     "category": "Technology",
-    "tag": "Popular"
+    "tag": "Popular",
+    "categoryId": "10003"
   },
   {
     "skillId": 8,
@@ -96,7 +103,8 @@
     "slotsAvailable": 5,
     "description": "An engaging, hands-on workshop where you will explore the rich history and practical application of oil painting. The curriculum covers essential techniques such as color theory, effective color mixing, different brushwork styles, and layering methods to achieve depth and texture in your artwork. All skill levels are welcome to join.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKxxCbFxWMLFhgcB1yExwO1Exo1hm1lJ9Lig&s",
-    "category": "Arts"
+    "category": "Arts",
+    "categoryId": "10004"
   },
   {
     "skillId": 9,
@@ -108,7 +116,8 @@
     "slotsAvailable": 6,
     "description": "This course is your first step toward financial freedom. Learn how to master personal finance by tracking expenses, setting achievable financial goals, and creating a sustainable monthly budget that works for your income. The focus is on practical strategies for saving, reducing debt, and making informed financial decisions.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58uZmbeEEYJNJLCLpMlNJQWiHAPyaz3hilg&s",
-    "category": "Life Skills"
+    "category": "Life Skills",
+    "categoryId": "10006"
   },
   {
     "skillId": 10,
@@ -120,7 +129,8 @@
     "slotsAvailable": 4,
     "description": "Get started on the drums with this comprehensive course covering essential drumming fundamentals. Students will learn proper grip and posture, develop foundational rhythm, and practice basic beats and fills for various musical genres. It’s the perfect class for aspiring drummers ready to establish a strong rhythmic foundation.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtd4pHd1F02DJd22MKqsH87kmyfdX1QpzwTQ&s",
-    "category": "Music"
+    "category": "Music",
+    "categoryId": "10001"
   },
   {
     "skillId": 11,
@@ -133,7 +143,8 @@
     "description": "A delicious, hands-on culinary class where you will be guided through the process of making three authentic, classic Italian pasta dishes from scratch. You'll learn techniques for making fresh pasta dough, preparing traditional sauces, and achieving the perfect 'al dente' texture, bringing a taste of Italy to your home kitchen.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcrcCPBf6iVIKmeGIQveuiMJ0j1M5fdj-aA&s",
     "category": "Culinary",
-    "tag": "Popular"
+    "tag": "Popular",
+    "categoryId": "10007"
   },
   {
     "skillId": 12,
@@ -145,7 +156,8 @@
     "slotsAvailable": 3,
     "description": "Take your spreadsheet skills to the next level with this advanced Microsoft Excel course. We will dive deep into powerful data analysis tools, including mastering pivot tables, implementing complex lookup functions like VLOOKUP and INDEX/MATCH, and creating sophisticated conditional formulas to transform raw data into actionable business intelligence.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx1NyNmaArl4SKPwISP5um-dTwcvSP-aDUQQ&s",
-    "category": "Technology"
+    "category": "Technology",
+    "categoryId": "10003"
   },
   {
     "skillId": 13,
@@ -158,7 +170,8 @@
     "description": "Learn the core concepts of digital marketing, including SEO, social media strategy, content creation, and email marketing. This course provides a solid foundation for anyone looking to start a career in marketing or promote their own business online.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20lI07MBytTFZCDVSjq1W848XfLar28BK_A&s",
     "category": "Business",
-    "tag": "Popular"
+    "tag": "Popular",
+    "categoryId": "10008"
   },
   {
     "skillId": 14,
@@ -170,7 +183,8 @@
     "slotsAvailable": 5,
     "description": "A quick and practical course focusing on essential Mandarin phrases for travel, including ordering food, asking for directions, and basic greetings. You'll learn pinyin and fundamental tones to confidently navigate Mandarin-speaking environments.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PQUnxsDL-OYEowE2fZ9zYMZ4gGE5ISU9rg&s",
-    "category": "Language"
+    "category": "Language",
+    "categoryId": "10002"
   },
   {
     "skillId": 15,
@@ -182,7 +196,8 @@
     "slotsAvailable": 4,
     "description": "Develop your storytelling skills by focusing on structure, character development, and dialogue specific to the short story format. Through writing exercises and peer critique, you will complete several polished short narratives.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvC2evz7aOJAZjnckkgCJvUyHkmfW4GgH5vA&s",
-    "category": "Arts"
+    "category": "Arts",
+    "categoryId": "10004"
   },
   {
     "skillId": 16,
@@ -195,7 +210,8 @@
     "description": "Learn various meditation techniques to reduce daily stress and increase focus. This course introduces mindfulness practices suitable for busy schedules, helping you cultivate inner calm and emotional resilience.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_-OyPhF1ljDD91itTvW_vgec-xSnYmfPR0w&s",
     "category": "Fitness",
-    "tag": "Popular"
+    "tag": "Popular",
+    "categoryId": "10005"
   },
   {
     "skillId": 17,
@@ -208,7 +224,8 @@
     "description": "Conquer stage fright and deliver powerful presentations. This intensive workshop covers effective speech structuring, voice modulation, body language, and audience engagement techniques to make you a confident and persuasive speaker.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9uXJmS9F_gViRQ6XsF4fwv9qYR-Zc6HNh6g&s",
     "category": "Life Skills",
-    "tag": "Popular"
+    "tag": "Popular",
+    "categoryId": "10006"
   },
   {
     "skillId": 18,
@@ -221,7 +238,8 @@
     "description": "Master Tableau to transform raw data into insightful, interactive dashboards and visualizations. Learn to connect to various data sources, clean data, and apply best practices for compelling data storytelling to aid decision-making.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu0ONLu7zKTGz5iV8On135VulqIV2ZLMAYQ&s",
     "category": "Technology",
-    "tag": "Popular"
+    "tag": "Popular",
+    "categoryId": "10003"
   },
   {
     "skillId": 19,
@@ -233,7 +251,8 @@
     "slotsAvailable": 5,
     "description": "An introductory course to the principles of interior design. Topics covered include color theory, space planning, lighting design, and selecting furniture. Learn how to create aesthetically pleasing and functional home or office environments.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfkn_V4X4Zv93LiphNCZHwUJSx5BtAPX37lQ&s",
-    "category": "Arts"
+    "category": "Arts",
+    "categoryId": "10004"
   },
   {
     "skillId": 20,
@@ -246,7 +265,8 @@
     "description": "Focus on practical, everyday conversational Spanish for absolute beginners. You'll learn key vocabulary, basic grammar, and common phrases to engage in simple interactions in Spanish-speaking countries.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlQN6laczL9mp3ptSAOrCU8S6mtlkybZ4N9w&s",
     "category": "Language",
-    "tag": "Popular"
+    "tag": "Popular",
+    "categoryId": "10002"
   },
   {
     "skillId": 21,
@@ -258,7 +278,8 @@
     "slotsAvailable": 1,
     "description": "A deep dive into advanced Search Engine Optimization (SEO) techniques, covering technical SEO, link building strategies, schema markup, and advanced keyword research. This course is for experienced marketers looking to achieve top search engine rankings.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXLjGezmzsH_MIIDATcfVgmvlpmTVQxVkVHQ&s",
-    "category": "Business"
+    "category": "Business",
+    "categoryId": "10008"
   },
   {
     "skillId": 22,
@@ -270,7 +291,8 @@
     "slotsAvailable": 8,
     "description": "Learn the rules and essential opening, middlegame, and endgame strategies of chess. This course is designed for beginners who want to move past the basics and start winning games consistently.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSduyx9TqQoCf8EAXUCJgG_KU9jyR8wXYdS2Q&s",
-    "category": "Games"
+    "category": "Games",
+    "categoryId": "10009"
   },
   {
     "skillId": 23,
@@ -282,7 +304,8 @@
     "slotsAvailable": 4,
     "description": "An intermediate-level class focused on dynamic Vinyasa sequences, linking breath to movement (Ujjayi breathing). Expect a challenging yet rewarding session that builds strength, flexibility, and endurance.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgK8gjkthmdSV3fnzYQbfFikcBB0zJrh93-g&s",
-    "category": "Fitness"
+    "category": "Fitness",
+    "categoryId": "10005"
   },
   {
     "skillId": 24,
@@ -294,7 +317,8 @@
     "slotsAvailable": 3,
     "description": "Master the science behind baking delicious desserts. You will learn foundational techniques for making perfect cookies, cakes, and pastry dough, focusing on ingredient ratios and oven temperatures.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzC_hYFQz2HUF7avQx-E1kgaa8weYK4jKseA&s",
-    "category": "Culinary"
+    "category": "Culinary",
+    "categoryId": "10007"
   },
   {
     "skillId": 25,
@@ -307,7 +331,8 @@
     "description": "An agile project management course focusing entirely on the SCRUM framework. Learn roles (Scrum Master, Product Owner), events (Sprints, Dailies), and artifacts necessary to deliver complex projects iteratively and efficiently.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-irvXB4FSp9320cPg60nJtcNhuj_X7gwZg&s",
     "category": "Business",
-    "tag": "Popular"
+    "tag": "Popular",
+    "categoryId": "10008"
   },
   {
     "skillId": 26,
@@ -319,6 +344,7 @@
     "slotsAvailable": 7,
     "description": "A beginner's guide to creating digital art using the Procreate app on the iPad. Learn brush management, layering techniques, color palettes, and exporting your final artwork for personal and commercial use.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp2rdDgnzGsDDStTSVHoNXqrVFfVETXLockQ&s",
-    "category": "Arts"
+    "category": "Arts",
+    "categoryId": "10004"
   }
 ]
