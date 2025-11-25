@@ -7,12 +7,12 @@ const Footer = () => {
     return (
         <div className='w-full  bg-accent text-base-100 p-4'>
 
-            <div className='w-10/12 mx-auto'>
+            <div className='w-9/10 mx-auto'>
 
                 <div className='flex flex-col md:flex-row space-y-5 justify-between'>
                     <div className='flex flex-col'>
                         <NavLink >Contact Info</NavLink>
-                        <NavLink >About</NavLink>
+                        <NavLink to={'/about'} >About</NavLink>
                         <NavLink >Design</NavLink>
                     </div>
 

@@ -1,11 +1,6 @@
 import React from 'react';
-import { AiFillDollarCircle } from 'react-icons/ai';
-import ratingIcon from './../../assets/icon-ratings.png'
-import { Link } from 'react-router';
 
-
-const LeftAside = ({skill}) => {
-    console.log(skill);
+const Middle = () => {
     return (
         <div className='mb-5 md:mb-0 md:mr-10'>
             <h2 className='font-bold text-[20px] text-orange-400 mb-5'>{skill.skillName}</h2>
@@ -34,4 +29,4 @@ const LeftAside = ({skill}) => {
     );
 };
 
-export default LeftAside;
+export default Middle;

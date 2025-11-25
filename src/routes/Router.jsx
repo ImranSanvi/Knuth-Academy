@@ -5,6 +5,7 @@ import AllSkill from "../Pages/AllSkill";
 import Error from "../Pages/Error";
 import HeroSlider from "../Components/HeroSlider";
 import SkillDetails from "../Pages/SkillDetails";
+import About from "../Pages/About";
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
         path: "/skillDetails/:id",
         element: <SkillDetails></SkillDetails>,
         loader: () => fetch('/Skills.json'),
+    },
+    {
+        path: "about",
+        element: <About></About>
     },
     {
         path: "/auth",

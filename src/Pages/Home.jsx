@@ -1,8 +1,6 @@
 import React from 'react';
 import { NavLink, useLoaderData } from 'react-router';
 import SkillCard from '../Components/SkillCard';
-import HeroSlider from '../Components/HeroSlider';
-import RightAside from '../Components/homeLayout/RightAside';
 
 const Home = () => {
 
