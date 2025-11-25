@@ -11,6 +11,8 @@ import Works from '../Components/Works';
 const HomeLayout = () => {
     const location = useLocation();
     const isHome = location.pathname === '/';
+    const isCategory = location.pathname.startsWith('/category/');
+
     return (
         <div>
             <header>
@@ -34,8 +36,8 @@ const HomeLayout = () => {
                 </div>
             </main>
 
-            {isHome && <TopRated></TopRated>}
-            {isHome && <Works></Works>}
+            { (isHome || isCategory) && <TopRated></TopRated>}
+            {(isHome || isCategory) && <Works></Works>}
 
             <footer>
                 <Footer></Footer>

@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from 'react-router';
 import RightAside from '../Components/homeLayout/RightAside';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import SkillDetailsCard from '../Components/SkillDetailsCard';
 
 const SkillDetails = () => {
     const data = useLoaderData();
@@ -14,7 +15,7 @@ const SkillDetails = () => {
         setSkill(newSkill);
     }, [data, id])
 
-    // console.log(skill);
+     console.log(skill);
     return (
         <div className=''>
             <header>
@@ -22,8 +23,9 @@ const SkillDetails = () => {
             </header>
 
             <main className='w-10/12 mx-auto grid md:grid-cols-12 mt-5 md:mt-15 mb-5'>
+
                 <aside className='md:col-span-9'>
-                    <Middle skill={skill}></Middle>
+                    <SkillDetailsCard skill={skill}></SkillDetailsCard>
                 </aside>
 
                 <aside className='md:col-span-3'>
