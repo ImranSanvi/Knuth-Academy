@@ -1,9 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import HomeLayout from "../layout/HomeLayout";
 import Home from "../Pages/Home";
-import AllSkill from "../Pages/AllSkill";
 import Error from "../Pages/Error";
-import HeroSlider from "../Components/HeroSlider";
 import SkillDetails from "../Pages/SkillDetails";
 import About from "../Pages/About";
 import CategorySkill from "../Components/CategorySkill";

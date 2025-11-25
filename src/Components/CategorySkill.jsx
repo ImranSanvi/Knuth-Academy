@@ -12,12 +12,14 @@ const CategorySkill = () => {
     // console.log(data, id)
 
     useEffect( ()=> {
-        if(!id){
+        if(!id || id == 1000){
             const filteredNews = data.filter(courses => courses.tag == 'Popular');
             setCourse(filteredNews);
         }
+        else{
             const filteredNews = data.filter(courses => courses.categoryId == id);
             setCourse(filteredNews);
+        }
     }, [data, id])
 
     // console.log(course)

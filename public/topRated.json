@@ -1,0 +1,58 @@
+[
+    {
+    "skillId": 3,
+    "skillName": "Introduction to Python Programming",
+    "providerName": "Ben Carter",
+    "providerEmail": "ben@skillswap.com",
+    "price": 35,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "A comprehensive introductory course on Python, one of the world's most popular programming languages. Students will master fundamental concepts like data types, control flow, functions, and basic object-oriented programming. This class is essential for aspiring developers and anyone interested in data science or automation.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDUBBvBAvUY1kJ8LqXzXRZzs59chVPqYshMntMpl5G174Y5JpfiI0XK4o&s",
+    "category": "Technology",
+    "tag": "Popular",
+    "categoryId": "10003"
+  },
+  {
+    "skillId": 7,
+    "skillName": "Web Development with React",
+    "providerName": "Fahad Khan",
+    "providerEmail": "fahad@skillswap.com",
+    "price": 45,
+    "rating": 4.9,
+    "slotsAvailable": 1,
+    "description": "A specialized class focused on building modern, high-performance single-page applications using the popular JavaScript library, React. Topics include component-based architecture, state management, routing, and interacting with APIs. This class is intended for students who already have a strong understanding of HTML, CSS, and vanilla JavaScript.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ52v3vK5ap7anvJY32fXs6LbFZIdC1660D_w&s",
+    "category": "Technology",
+    "tag": "Popular",
+    "categoryId": "10003"
+  },
+  {
+    "skillId": 11,
+    "skillName": "Home Cooking - Italian Pasta",
+    "providerName": "Jake Rodriguez",
+    "providerEmail": "jake@skillswap.com",
+    "price": 40,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "A delicious, hands-on culinary class where you will be guided through the process of making three authentic, classic Italian pasta dishes from scratch. You'll learn techniques for making fresh pasta dough, preparing traditional sauces, and achieving the perfect 'al dente' texture, bringing a taste of Italy to your home kitchen.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcrcCPBf6iVIKmeGIQveuiMJ0j1M5fdj-aA&s",
+    "category": "Culinary",
+    "tag": "Popular",
+    "categoryId": "10007"
+  },
+  {
+    "skillId": 25,
+    "skillName": "Project Management with SCRUM",
+    "providerName": "Yara Zaki",
+    "providerEmail": "yara@skillswap.com",
+    "price": 40,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "An agile project management course focusing entirely on the SCRUM framework. Learn roles (Scrum Master, Product Owner), events (Sprints, Dailies), and artifacts necessary to deliver complex projects iteratively and efficiently.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-irvXB4FSp9320cPg60nJtcNhuj_X7gwZg&s",
+    "category": "Business",
+    "tag": "Popular",
+    "categoryId": "10008"
+  }
+]

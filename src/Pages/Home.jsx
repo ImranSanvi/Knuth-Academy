@@ -7,14 +7,14 @@ const Home = () => {
     const data = useLoaderData();
 
     const [popular, setPopular] = useState([]);
-    console.log(data)
+    // console.log(data)
 
     useEffect( ()=> {
          const filteredNews = data.filter(courses => courses.tag == 'Popular');
         setPopular(filteredNews);
     }, [data])
 
-    console.log(popular);
+    // console.log(popular);
 
     return (
         <div>

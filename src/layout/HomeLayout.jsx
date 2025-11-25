@@ -5,6 +5,8 @@ import RightAside from '../Components/homeLayout/RightAside';
 import Footer from '../Components/Footer';
 import HeroSlider from '../Components/HeroSlider';
 import LeftAside from '../Components/homeLayout/LeftAside';
+import TopRated from '../Components/TopRated';
+import Works from '../Components/Works';
 
 const HomeLayout = () => {
     const location = useLocation();
@@ -31,6 +33,9 @@ const HomeLayout = () => {
                     <RightAside></RightAside>
                 </div>
             </main>
+
+            {isHome && <TopRated></TopRated>}
+            {isHome && <Works></Works>}
 
             <footer>
                 <Footer></Footer>
