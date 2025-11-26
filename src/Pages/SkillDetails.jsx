@@ -22,7 +22,7 @@ const SkillDetails = () => {
                 <Header></Header>
             </header>
 
-            <main className='w-10/12 mx-auto grid md:grid-cols-12 mt-5 md:mt-15 mb-5'>
+            <main className='w-9/10 mx-auto grid md:grid-cols-12 mt-5 md:mt-15 mb-5'>
 
                 <aside className='md:col-span-9'>
                     <SkillDetailsCard skill={skill}></SkillDetailsCard>

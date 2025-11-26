@@ -5,6 +5,9 @@ import Error from "../Pages/Error";
 import SkillDetails from "../Pages/SkillDetails";
 import About from "../Pages/About";
 import CategorySkill from "../Components/CategorySkill";
+import Login from "../Pages/Login";
+import Register from "../Pages/Register";
+import AuthLayout from "../layout/AuthLayout";
 
 
 const router = createBrowserRouter([
@@ -36,7 +39,17 @@ const router = createBrowserRouter([
     },
     {
         path: "/auth",
-        element: <h1>Authentication Layout</h1>
+        element: <AuthLayout></AuthLayout>,
+        children:[
+            {
+                path: '/auth/login',
+                element: <Login></Login>
+            },
+            {
+                path: '/auth/register',
+                element: <Register></Register>
+            }
+        ]
     },
 
     {
