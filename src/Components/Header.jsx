@@ -22,7 +22,7 @@ const Header = () => {
         <div className='bg-primary w-full '>
             <div className='w-9/10 mx-auto space-y-5 py-3 flex flex-col md:flex-row justify-between items-center text-white'>
                 <img className='w-[81px] h-[81px] rounded-full ' src={logo} alt="" />
-            
+                {/* {user && user.email} */}
                 <div className='flex gap-5'>
                     <NavLink to={'/'} className='font-bold'>Home</NavLink>
                     <NavLink to={'/about'} className='font-bold'>About</NavLink>

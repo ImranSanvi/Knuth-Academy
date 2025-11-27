@@ -14,7 +14,8 @@ const Login = () => {
         signIn(email, password)
         .then(result =>{
             const user = result.user;
-            toast(user ,"Login Successfully!!");
+            console.log(user)
+            toast("Login Successfully!!");
         }).catch(error =>{
             alert(error);
         })
