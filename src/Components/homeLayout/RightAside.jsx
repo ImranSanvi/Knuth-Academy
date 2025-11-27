@@ -6,15 +6,30 @@ import { SiNetlify } from 'react-icons/si';
 import { TfiTwitterAlt } from 'react-icons/tfi';
 import offer1 from './../../assets/offer1.jpg'
 import offer2 from './../../assets/offer2.jpg'
+import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { auth } from '../../Provider/AuthProvider';
+import { toast } from 'react-toastify';
+
+const googleProvider = new GoogleAuthProvider();
 
 const RightAside = () => {
+    const handleGoogleSignIn = () =>{
+        signInWithPopup(auth, googleProvider)
+        .then(result =>{
+            toast("Login successfully!!")
+        })
+        .catch(error =>{
+            alert(error)
+        })
+    }
+
     return (
         <div>
             <h2 className='font-bold text-[25px] '>Login with</h2>
 
             <div className='flex gap-2 items-center mt-5 border border-blue-500 px-4 py-2 rounded-[5px]'>
                 <FcGoogle className='w-[25px] h-[25px] '></FcGoogle>
-                <p>Login with Google</p>
+                <p onClick={handleGoogleSignIn}>Login with Google</p>
             </div>
             <div className='flex gap-2 items-center mt-2 border border-blue-500 px-4 py-2 rounded-[5px]'>
                 <GrGithub className='w-[25px] h-[25px] '></GrGithub>

@@ -10,6 +10,7 @@ import Register from "../Pages/Register";
 import AuthLayout from "../layout/AuthLayout";
 import PrivateRoute from "../Provider/PrivateRoute";
 import Profile from "../Pages/Profile";
+import Loading from "../Pages/Loading";
 
 
 const router = createBrowserRouter([
@@ -20,12 +21,14 @@ const router = createBrowserRouter([
             {
                 path:"/",
                 element:<Home></Home>,
-                loader: () => fetch('/Skills.json')
+                loader: () => fetch('/Skills.json'),
+                hydrateFallbackElement: <Loading></Loading>
             },
             {
                 path:"/category/:id",
                 element: <CategorySkill></CategorySkill>,
-                loader: () => fetch('/Skills.json')
+                loader: () => fetch('/Skills.json'),
+                hydrateFallbackElement: <Loading></Loading>
             },
 
         ]
@@ -36,6 +39,7 @@ const router = createBrowserRouter([
                 <SkillDetails></SkillDetails>
             </PrivateRoute>,
         loader: () => fetch('/Skills.json'),
+        hydrateFallbackElement: <Loading></Loading>
     },
     {
         path: "about",

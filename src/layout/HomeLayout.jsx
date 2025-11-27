@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet, useLocation } from 'react-router';
+import { Outlet, useLocation, useNavigation } from 'react-router';
 import Header from '../Components/Header';
 import RightAside from '../Components/homeLayout/RightAside';
 import Footer from '../Components/Footer';
@@ -7,13 +7,18 @@ import HeroSlider from '../Components/HeroSlider';
 import LeftAside from '../Components/homeLayout/LeftAside';
 import TopRated from '../Components/TopRated';
 import Works from '../Components/Works';
+import Loading from '../Pages/Loading';
 
 const HomeLayout = () => {
     const location = useLocation();
     const isHome = location.pathname === '/';
     const isCategory = location.pathname.startsWith('/category/');
 
+    const {state} = useNavigation();
+
     return (
+
+
         <div>
             <header>
                 <Header></Header>
@@ -28,7 +33,7 @@ const HomeLayout = () => {
                 </div>
 
                 <section className='md:col-span-3'>
-                    <Outlet></Outlet>
+                    {state =='loading' ? <Loading></Loading> : <Outlet></Outlet>}
                 </section>
 
                 <div className='rightSide md:col-span-1 md:top-0 h-fit sticky'>
