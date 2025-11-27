@@ -30,13 +30,13 @@ const Register = () => {
                 <div className="card-body">
                     <form onSubmit={handleRegister} className="fieldset">
                         <label className="label">Name</label>
-                        <input name='name' type="email" className="input" placeholder="Name" required />
+                        <input name='name' type="text" className="input" placeholder="Name" required />
 
                         <label className="label">Email</label>
                         <input name='email' type="email" className="input" placeholder="Email" required />
 
                         <label className="label">Photo URL</label>
-                        <input name='photo' type="email" className="input" placeholder="Photo URL" required />
+                        <input name='photo' type="text" className="input" placeholder="Photo URL" required />
 
                         <label className="label">Password</label>
                         <input name='password' type="password" className="input" placeholder="Password" required />
