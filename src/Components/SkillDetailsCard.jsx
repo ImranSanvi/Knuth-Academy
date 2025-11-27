@@ -2,23 +2,15 @@ import React from 'react';
 import { AiFillDollarCircle } from 'react-icons/ai';
 import ratingIcon from './../assets/icon-ratings.png'
 
-//   {
-//     "skillId": 25,
-//     "skillName": "Project Management with SCRUM",
-//     "providerName": "Yara Zaki",
-//     "providerEmail": "yara@skillswap.com",
-//     "price": 40,
-//     "rating": 4.9,
-//     "slotsAvailable": 2,
-//     "description": "An agile project management course focusing entirely on the SCRUM framework. Learn roles (Scrum Master, Product Owner), events (Sprints, Dailies), and artifacts necessary to deliver complex projects iteratively and efficiently.",
-//     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-irvXB4FSp9320cPg60nJtcNhuj_X7gwZg&s",
-//     "category": "Business",
-//     "tag": "Popular",
-//     "categoryId": "10008"
-//   },
 
 const SkillDetailsCard = ({skill}) => {
-    console.log(skill)
+    // console.log(skill)
+
+    const handleForm = (e) =>{
+        e.preventDefault();
+        e.target.reset();
+    }
+
     return (
         <div className='mr-0 md:mr-10 space-y-5'>
             <img className='rounded-[5px] w-full h-[405px] ' src={skill.image} alt="" />
@@ -43,7 +35,25 @@ const SkillDetailsCard = ({skill}) => {
             </div>
             <p className='text-[#DDC3C3]'>{skill.description}</p>
 
-            <div className="flex justify-center">
+            <form onSubmit={handleForm} className='flex flex-col space-y-5 justify-center items-center border border-gray-200 p-3'>
+                <h2 className='font-bold text-2xl'>Book Session</h2>
+                
+                <div className='flex gap-5'>
+                    <label className="label font-bold">Name</label>
+                    <input name='name' type="name" className="input" placeholder="name" required />
+                </div>
+
+                <div className='flex gap-5'>
+                    <label className="label font-bold">Email</label>
+                    <input name='email' type="email" className="input" placeholder="email" required />
+                </div>
+
+                <button type='submit' className="px-3 py-2 bg-[#5459AC] rounded-2xl text-white">
+                    Submit
+                </button>
+            </form>
+
+            <div className="flex justify-center mt-5">
                 <button className="px-3 py-2 bg-purple-500 rounded-2xl text-white">
                     Enroll Now
                 </button>

@@ -1,21 +1,62 @@
-import React, { use } from 'react';
-import { Link } from 'react-router';
+import React, { use, useContext, useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../Provider/AuthProvider';
 
 const Register = () => {
-    const {createUser, setUser} = use(AuthContext);
+    const {createUser, setUser, updateUser} = useContext(AuthContext);
+
+    const location = useLocation();
+    const navigate = useNavigate();
+    const uppercase = /[A-Z]/;
+    const lowercase = /[a-z]/;
+
+    const [nameError, setNameError] = useState("");
+    const [passwordError, setPasswordError] = useState("");
 
     const handleRegister = (e) =>{
         e.preventDefault();
         const form = e.target;
         const name = form.name.value;
+        if(name.length < 5){
+            setNameError("Name should be 5 or more character");
+            return;
+        }
+        else{
+            setNameError("");
+        }
+
         const email = form.email.value;
         const photo = form.photo.value;
         const password = form.password.value;
+
+        if (password.length < 6) {
+            setPasswordError("Password must be at least 6 characters long");
+            return;
+        }
+
+        if (!uppercase.test(password)) {
+            setPasswordError("Password must contain at least one uppercase letter");
+            return;
+        }
+
+        if (!lowercase.test(password)) {
+            setPasswordError("Password must contain at least one lowercase letter");
+            return;
+        }
+        else{
+            setPasswordError("");
+        }
+
         createUser(email, password)
         .then(result => {
             const user = result.user;
-            setUser(user);
+            updateUser({displayName:name, photoURL:photo}).then( ()=>{
+                navigate(`${location.state ? location.state : "/"}`);
+                setUser({...user, displayName: name, photoURL: photo});
+            }).catch(error =>{
+                alert(error);
+                setUser(user);
+            })
         })
         .catch( (error) =>{
             const errorMessage = error.message;
@@ -31,6 +72,7 @@ const Register = () => {
                     <form onSubmit={handleRegister} className="fieldset">
                         <label className="label">Name</label>
                         <input name='name' type="text" className="input" placeholder="Name" required />
+                        {nameError && <p className='text-red-400'>{nameError}</p>}
 
                         <label className="label">Email</label>
                         <input name='email' type="email" className="input" placeholder="Email" required />
@@ -40,6 +82,8 @@ const Register = () => {
 
                         <label className="label">Password</label>
                         <input name='password' type="password" className="input" placeholder="Password" required />
+                        {passwordError && <p className='text-red-400'>{passwordError}</p>}
+
                         <button type='submit' className="btn btn-neutral mt-4">Register</button>
                     </form>
                     <p className='font-semibold text-center pt-5'>Already Have An Account ? <Link className='text-secondary' to={'/auth/login'}>Login</Link></p>

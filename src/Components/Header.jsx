@@ -1,4 +1,4 @@
-import React, { use } from 'react';
+import React, { useContext } from 'react';
 import logo from './../assets/logo.png'
 import userIcon from './../assets/user.png'
 import { Link, NavLink } from 'react-router';
@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 
 const Header = () => {
 
-    const {user, logOutUser} = use(AuthContext);
+    const {user, logOutUser} = useContext(AuthContext);
 
     const handleLogout = () =>{
         logOutUser().then(result =>{
@@ -26,11 +26,34 @@ const Header = () => {
                 <div className='flex gap-5'>
                     <NavLink to={'/'} className='font-bold'>Home</NavLink>
                     <NavLink to={'/about'} className='font-bold'>About</NavLink>
-                    <NavLink to={'/myProfile'} className='font-bold'>My Profile</NavLink>
+                    <NavLink to={'/profile'} className='font-bold'>My Profile</NavLink>
                 </div>
 
                 <div className='flex gap-3 items-center'>
-                    <img className='rounded-full' src={userIcon} alt="" />
+                    <div className="relative group">
+                        <img
+                            className="rounded-full w-10 h-10 cursor-pointer"
+                            src={user ? user.photoURL : userIcon}
+                            alt="profile"
+                        />
+
+                        {user && (
+                            <div
+                                className="
+                                    absolute left-1/2 -translate-x-1/2 
+                                    top-[105%] bg-black text-white 
+                                    text-xs py-1 px-2 rounded shadow-lg 
+                                    opacity-0 group-hover:opacity-100
+                                    transition-opacity duration-300
+                                    whitespace-nowrap
+                                "
+                            >
+                                {user.email}
+                            </div>
+                        )}
+                    </div>
+
+
                     {user ? <button onClick={handleLogout} className='bg-secondary py-2 px-4 rounded-2xl font-bold '>LogOut</button> : <Link to={'/auth/login'} className='bg-secondary py-2 px-4 rounded-2xl font-bold '>Login</Link>}
                 </div>
             </div>
