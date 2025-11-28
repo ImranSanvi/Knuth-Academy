@@ -15,7 +15,7 @@ const SkillDetails = () => {
         setSkill(newSkill);
     }, [data, id])
 
-     console.log(skill);
+    //  console.log(skill);
     return (
         <div className=''>
             <header>
