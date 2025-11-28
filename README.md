@@ -1,16 +1,56 @@
-# React + Vite
+# Knuth Academy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Knuth Academy is a modern skill-learning platform built with React, Firebase Authentication, and Vite.  
+Users can register, login, update profiles, browse skills, and book sessions seamlessly with a clean UI powered by Tailwind & DaisyUI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live URL
+https://knuth-accademy.web.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Purpose of the Project
+The purpose of Knuth Academy is to create a platform where users can:
+- Browse various skills provided by experts  
+- Register and login securely  
+- Book learning sessions  
+- Manage their user profile  
+- Explore skill details with an engaging UI  
 
-## Expanding the ESLint configuration
+This project demonstrates the use of **React**, **React Router**, **Firebase**, **Authentication**, and reusable components.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⭐ Key Features
+### 🔐 Authentication
+- Register with name, email, photo  
+- Login with email & password  
+- Logout  
+- Update profile (name & photo)  
+- Reset password (email-based)  
+
+### 🎨 UI & UX
+- Fully responsive layout  
+- TailwindCSS + DaisyUI styling  
+- Toast notification system  
+- Beautiful icons via React Icons & Lucide Icons  
+- Header with profile hover tooltip  
+
+### 📚 Skill Related
+- View skill list  
+- View skill details  
+- Book a session  
+- Display ratings, categories, tags, and provider info  
+
+### 🛠 Tech Stack
+- **React**
+- **Vite**
+- **Firebase**
+- **Tailwind CSS**
+- **DaisyUI**
+- **React Router**
+- **React Toastify**
+- **Swiper.js**
+
+---
