@@ -11,6 +11,7 @@ import AuthLayout from "../layout/AuthLayout";
 import PrivateRoute from "../Provider/PrivateRoute";
 import Profile from "../Pages/Profile";
 import Loading from "../Pages/Loading";
+import ForgetPassword from "../Pages/ForgetPassword";
 
 
 const router = createBrowserRouter([
@@ -62,13 +63,20 @@ const router = createBrowserRouter([
 
     {
         path: "/profile",
-        element: <Profile></Profile>
+        element: <PrivateRoute>
+            <Profile></Profile>
+        </PrivateRoute>
     },
 
     {
         path: "/*",
         element: <Error></Error>
     },
+    {
+        path: "/auth/forget-password",
+        element: <ForgetPassword></ForgetPassword>
+    }
+
 ]);
 
 export default router;

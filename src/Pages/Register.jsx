@@ -1,6 +1,8 @@
 import React, { use, useContext, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../Provider/AuthProvider';
+import { LuEye } from 'react-icons/lu';
+import { FaEyeSlash } from 'react-icons/fa';
 
 const Register = () => {
     const {createUser, setUser, updateUser} = useContext(AuthContext);
@@ -12,6 +14,12 @@ const Register = () => {
 
     const [nameError, setNameError] = useState("");
     const [passwordError, setPasswordError] = useState("");
+    const [showPassword, setShowPassword] = useState(false);
+
+    const handlePassword = (e) =>{
+        e.preventDefault();
+        setShowPassword(!showPassword);
+    }
 
     const handleRegister = (e) =>{
         e.preventDefault();
@@ -81,7 +89,14 @@ const Register = () => {
                         <input name='photo' type="text" className="input" placeholder="Photo URL" required />
 
                         <label className="label">Password</label>
-                        <input name='password' type="password" className="input" placeholder="Password" required />
+                        <div className='relative'>
+                            <input name='password' type={showPassword ? "text" : "password"} className="input" placeholder="Password" required />
+                            <button
+                                onClick={handlePassword}
+                                className="btn btn-xs absolute top-2 right-3">
+                                    {showPassword ? <FaEyeSlash /> : <LuEye />}
+                            </button>
+                        </div>
                         {passwordError && <p className='text-red-400'>{passwordError}</p>}
 
                         <button type='submit' className="btn btn-neutral mt-4">Register</button>
