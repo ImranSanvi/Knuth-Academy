@@ -6,7 +6,7 @@ Users can register, login, update profiles, browse skills, and book sessions sea
 ---
 
 ## 🚀 Live URL
-https://knuth-accademy.web.app/
+https://knuth-accademy.web.app
 
 ---
 
